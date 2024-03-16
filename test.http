@@ -1,0 +1,27 @@
+### create Post
+POST http://localhost:4000/posts
+Content-Type: application/json
+
+{
+  "title":"huhu",
+  "body":"asik"
+}
+
+###
+### get all Post 
+GET http://localhost:4000/posts
+
+###
+### update Post by id
+PUT  http://localhost:4000/posts/5
+Content-Type: "application/json"
+
+{
+  "title":"waduh 5 kali",
+  "body":"20 uhuhu"
+}
+###
+### delete   Post by id
+DELETE   http://localhost:4000/posts/5
+
+###
